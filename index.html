@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Arjun's Private Site</title>
+</head>
+
+<body>
+  <hr><hr>
+  <table cellspacing="60">
+    <tr>
+      <td><img src="adiyogi-circle-cropped.png" alt="Adiyogi Statue Picture" width="200" height="200">
+      <!-- the alt attribute in img tag displays an alternate text in case the
+      image does not load for the browser. This attribute is also useful for SEO
+      since the search engine would look into this text to assossiate the keywords
+      in the alt section to the search query-->
+      </td>
+      <td>
+        <h1>Arjun Haridaas</h1>
+        <p><em><strong><a href="https://en.wikipedia.org/wiki/Photography" target="_blank"
+                title="Photography is easily defined as the capturing of light using a camera either film or digital, in a manner that is similar to that of the working of the human eye">Freelance Photographer</a></strong> And <strong><a
+                href="https://en.wikipedia.org/wiki/Web_development" target="_blank" title="Web developent involves the creation of web based applications and websites in general">Web Developer</a></strong></em></p>
+        <!--it is a good practice to use emphasis tag instead of <i> or italics
+        tag since italics only modifies the look of the text whereas the
+        <em></em> emphasis tag stresses the marked out part in the element;
+        It is more important to focus on structuring the text rather than
+        focusing on how it looks ; Similarly the <b> or bold tag gives just
+        the bold appearance whereas the <strong> tag confers greater importance
+        to the text that is marked</strong></b>-->
+        <p><em>This is my bio. There is not much to say in regards to who i'am or
+        what i do except for the clear fact that Neither am I this body nor
+        am I this mind</em>
+        </p>
+      </td>
+    </tr>
+  </table>
+  <hr><hr>
+  <h3>Education</h3>
+  <ul>
+    <!-- the ul tag stands for unordered bullet list which can be used in as
+    many hierarchical levels as ecessary or even in conjunction with the ol
+    tag which is the ordered list tag which replaces the bulet point style
+    with numbers, alphabets etc-->
+    <li>Bharatiya Vidya Bhavan, Kochi
+      <ol type="A" start="7">
+        <!-- The ol tag can have several attributes such as type which
+        determines whether a number or alphabet or roman numeral needs
+        to be used in the list, the start tag which determines which number
+        or alphabet should the list start from and the reverse tag which can
+        reverse the order of the numbering or lettering on the list-->
+        <li><a href="https://en.wikipedia.org/wiki/Physics" target="_blank" title="Physics is the natural science that studies matter, its motion and behavior through space and time, and the related entities of energy and force.">Physics</a></li>
+        <li>Chemistry</li>
+        <!-- the anchor element is used to embed a hyperlink to a text by
+        enclosing the text within the start and end anchor tags. Some attributes
+        which are used as given in the example here are href, title and target.
+        href is the major attribute as it specifies which link should be embedded.
+        the target attribute defines which tab or window should be used by
+        browser to open the embedded link. the title attribute provides
+        mouseover hover text for the link. -->
+        <li>Mathematics</li>
+        <li>ComputerScience</li>
+        <li>Karate</li>
+        <li>History</li>
+        <li>English</li>
+        <li>Hindi</li>
+        <li>Malayalam</li>
+      </ol>
+    </li>
+    <li>Class of 2013, Sacred Heart College, Kochi
+      <ul>
+        <li>Bachelor Of Computer Applications
+          <ul>
+            <li>Mathematics</li>
+            <li>Statistics</li>
+            <li>English</li>
+            <li>ComputerScience</li>
+            <li>Eonomics</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>Class of 2018, SVC Polytechnic, Pune</li>
+    <ul>
+      <li>Mechanical Engineering</li>
+    </ul>
+    <li>BMC Course 254, Nehru Institute Of Mountaineering, Uttarkashi
+      <ul>
+        <li>Basic Rock Climbing</li>
+        <li>Basic Rope Knots And Systems</li>
+        <li>Basic Snow Craft</li>
+        <li>Basic Ice Craft</li>
+        <li>Basic Expedition Planning</li>
+      </ul>
+    </li>
+    <li>AMC Course 160, Nehru Institute Of Mountaineering, Uttarkashi
+      <ul>
+        <li>Advanced Rock Climbing</li>
+        <li>Advanced Rope Knots And Systems</li>
+        <li>Advanced Snow Craft</li>
+        <li>Advanced Ice Craft</li>
+        <li>Advanced Expedition Planning</li>
+      </ul>
+    </li>
+  </ul>
+  <hr>
+  <h3>Work Experience</h3>
+  <table border="3">
+  <!-- table element enables us to display data in a tabular format where
+  needed, with or without borders. borders and styling can be added using CSS
+  and most of the attributes that define the style on html is deprecated so
+  rerain from using it. The table element can consist of header, body and
+  footer. it is useful to separate them based on these lines since different
+  formatting can be done to each element separately if needed-->
+    <thead>
+    <!-- Header element which contains a special tabe header cell which is
+    automatically formatted in bold and centrally aligned-->
+      <tr>
+        <th>Time Period</th>
+        <th>Organisation</th>
+        <th>Position Held</th>
+      </tr>
+    </thead>
+    <tbody>
+    <!-- Table body is the main part of the table where the data we wish
+    to display is entered. It contains of table row element which is the
+    horizontal row and each td or table data element holds information for one
+    cell in that row-->
+      <tr>
+        <td>2010-2011</td>
+        <td>AIESEC</td>
+        <td>Marketing Executive</td>
+      </tr>
+      <tr>
+        <td>2014-2015</td>
+        <td>NTPC</td>
+        <td>Safety Supervisor</td>
+      </tr>
+      <tr>
+        <td>2018-2020</td>
+        <td>Arjun Haridaas Photography</td>
+        <td>Photographer</td>
+      </tr>
+      <tr>
+        <td>2020-Present</td>
+        <td>Isha Foundation</td>
+        <td>Volunteer</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <hr>
+  <h3>Skills</h3>
+  <table border="3">
+  <!-- Border attribute on the table element is deprecated and instead
+  CSS style should be used. In the below table , we have nested 2 tables
+  inside the single row of the main table as the 2 separate tables were
+  embedded inside the table cells in the first row of main table-->
+    <tr>
+      <td>
+        <table cellspacing="10">
+          <tr>
+            <td>Portrait Photography</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Architectural Photography</td>
+            <td>⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Adventure Photography</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table cellspacing="10">
+          <tr>
+            <td>HTML</td>
+            <td>⭐⭐</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>⭐</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>⭐</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+  </table>
+  <br>
+  <hr>
+  <a href="hobbies.html" target="_blank" title="Click to know about my hobbies">My Hobbies</a>
+  <a href="ContactMe.html" target="_blank" title="Click here to know how to contact me">Contact Me</a>
+  <a href="inputs.html" target="_blank" title="Click here to know more about my experimentation with Form inputs">Form Input Testing</a>
+</body>
+
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <h2>Form Inputs</h2>
+  <form class="" action="inputs.html" method="post">
+    <div>
+      <label>Testing For Textbox, Checkbox, Color, Date and Submit Inputs</label><br><br>
+      <label>Textbox</label>
+      <input type="text" name="" value=""><br>
+      <!--Creates an input for basic single line text data which can be used
+      for functions like validaton of information entered by the user via
+      Javascript, storing user entered data in a database etc-->
+      <label>Checkbox</label>
+      <input type="checkbox" name="" value=""><br>
+      <!--Simple checkboxes can be made using this input which can be either
+      ticked or left blank, with JS, logical constraints can be added to
+      incorporate functionality to the checkbox-->
+      <label>Color</label>
+      <input type="color" name="" value=""><br>
+      <!--Can be used to generate an input for user to select color from an
+      interface element or by specifying the color code in a hexadecimal
+      format #RRBBGG-->
+      <label>Date</label>
+      <input type="date" name="" value="" max="2020-02-20">
+      <!-- Lets the user select date either from a text box element or a
+      user interface element-->
+      <input type="submit" name="" value="Submit Now" formaction="D:\WebDev\Atom Web Dev\HTML - Personal Site\index.html"><br>
+      <!--This creates a button to submit the form. When the value attribute is
+      omitted, then the default text shown on the button is Submit or soething
+      similar. This text can be customised by changing the value attribute of
+      the submit input; further functionality can be added via JS; formaction
+      attribute can be used to specify which page to go to once submit is clicked-->
+    </div>
+    <hr>
+    <div>
+      <label>Testing For Local Date-Time, Email, File, Hidden, Image and Button Inputs</label><br><br>
+      <label>Local Date And Time</label>
+      <input type="datetime-local" name="" value=""><br>
+      <!--Date along with the time can be specified by the user using this input.
+      it can pick up the user's system date and time as well; It does not
+      display time zone-->
+      <label>E-Mail</label>
+      <input type="email" name="" value=""><br>
+      <!-- For inputting the user's Email and can be made functional using JS-->
+      <label>File</label>
+      <input type="file" name="" value=""><br>
+      <!-- Can be used to allow users to upload files from their system;
+      The type, file size limit etc can be specified in the attributes
+      of this input-->
+      <label>Hidden</label>
+      <input type="hidden" name="" value=""><br>
+      <!--They are hidden from the user and cannot be edited by them other than
+      by accessing the developer tools. when the form is submitted, then this
+      data is also submitted to the database-->
+      <label>Image Based Button</label>
+      <input type="image" name="" value="" src="https://img.icons8.com/cotton/2x/small-axe.png"><br>
+      <!-- This adds a clickable iage which acts as a submit button.
+      The image can be linked to this input elements using src attribute-->
+      <label>Button</label>
+      <input type="button" name="" value="Button"><br>
+      <!-- This input type is used to create a simple push button which can
+      display the text that we put in the value attribute. This input has no
+      function until we apply functionality to it via Javascript-->
+    </div>
+    <hr>
+    <div>
+      <label>Testing For Month, Number, Password, Radio, Range, Reset, Search, Telephone Keypad, Time, URL and Week Inputs</label><br><br>
+      <label>Month</label>
+      <input type="month" name="" value="2018-08" min="2018-07" max="2019-07"><br>
+      <!-- The month input lets the user enter the month and year into the form.
+      We can define minimum, maximum, default month along with year etc via the
+      attributes-->
+      <label>Number</label>
+      <input type="number" name="" value=""> <br>
+      <!-- This allows the user to enter numbers into the form.They have built
+      in validation systems to automatically reject non numerical entries;
+      A range can be defined by using attributes-->
+      <label>Username And Password</label><br>
+      <table>
+        <tr>
+          <td>
+            <label>User ID</label>
+          </td>
+          <td>
+            <input type="text" name="" value="">
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label>Password</label>
+          </td>
+          <td>
+            <input type="password" name="" value="">
+          </td>
+        </tr>
+        <!-- The password input can be used in order for the user to securely
+      enter the password. The text appearing in this field is encrypted
+      into special characters automatically so as to mask the appearance-->
+      </table>
+      <label>Select An Old Friend</label><br>
+      <div>
+        <input type="radio" name="crush" value="">
+        <label>Bhavya</label>
+      </div>
+      <div>
+        <input type="radio" name="crush" value="">
+        <label>Veena</label>
+      </div>
+      <div>
+        <input type="radio" name="crush" value="">
+        <label>Oshein</label>
+      </div>
+      <!-- The radio input is useful for selecting one among multiple options
+      clustered as a group. For these multiple options to be considered as a group,
+      the name attribute assigned to each input should be the same; There will
+      be different values to different inputs set by the developer oftentimes
+      unknown to the user which gets submitted at the end along with the form-->
+      <label>Range</label><br>
+      <div>
+        <input type="range" name="" value="0" min="0" max="100" step="1">
+        <label>Product 1</label>
+      </div>
+      <div>
+        <input type="range" name="" value="0" min="0" max="100" step="2">
+        <label>Product 2</label>
+      </div>
+      <!-- Range input type allows user to select a number from a particular
+      range via slider or dial depending on OS and broser support. If not
+      supported then it will be replaced by text. Main attributes which define
+      the range include the min, max and step attributes; the currently selected
+      slider number can be made visible to the user by using Javascript-->
+      <div>
+        <input type="reset" name="" value="Reset Now">
+        <!-- Reset input is used in order to change all the fields in the form
+        back to its default state; These are to be used rarely as it may lead to
+        the user getting frustrated if they click on it accidentally-->
+      </div>
+      <div>
+        <label>Search This Website</label><br>
+        <input type="search" name="" value="">
+        <input type="button" name="" value="Search Now">
+        <!-- Search input is functionally identical to the text box and is
+        used to search queries. This input may be styled differently from
+        the text input by the developer-->
+      </div>
+      <div>
+        <label>Enter Your Indian Phone Number With Country Code As Well !</label><br>
+        <input type="tel" name="" value="" pattern="[0-9]{2}-[0-9]{10}" required>
+        <small>Example : 91-9696959595</small>
+        <input type="submit" name="" value="Submit Now">
+        <!-- The tel input can be used to allow user to input mobile phone number.
+        Unlike email or url inputs, this cannot be automatically validated as the
+        constraints for mobile number format differs from country to country-->
+      </div>
+      <div>
+        <label>Choose A Time For Your Appoinment</label>
+        <input type="time" name="" value="" min="09:00" max="18:00">
+        <small>Our Office Timing Is Between 9am till 6pm</small>
+        <!-- The time input allows the user to a specific time.
+        Developer can use attributes to specify an allowed range-->
+      </div>
+      <div>
+        <label>Enter An https:// URL</label>
+        <input type="url" name="" value="" placeholder="https://example.co.in" pattern="https://.*" size="30">
+        <!-- The url input is used in order to let the user enter any url with
+        or without format constraints specified by the developer-->
+      </div>
+      <div>
+        <label>Select Required Week And Year</label><br>
+        <input type="week" name="" value="">
+        <!-- the week input lets the user select a week along with year from an
+        interface window or from the slider pane in certain browsers-->
+      </div>
+    </div>
+    <br>
+    <input type="submit" name="" value="Submit Now">
+    <br>
+    <hr>
+  </form>
+</body>
+
+</html>
